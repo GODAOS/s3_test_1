@@ -1,3 +1,5 @@
 spring:
   application:
     name: s3_test_1
+  profiles:
+    include: secret
